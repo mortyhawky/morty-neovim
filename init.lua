@@ -40,3 +40,4 @@ vim.keymap.set("n", "<leader>ri", '<cmd>source $MYVIMRC<CR> <cmd>echo "Reloaded 
 -- g <C-g> Show where you are in the file detaild.
 -- :vs split vertical |
 -- :sp split horizontal -
+-- asdf
