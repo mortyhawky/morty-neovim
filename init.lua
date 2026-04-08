@@ -38,6 +38,7 @@ vim.keymap.set("n", "<leader>ri", '<cmd>source $MYVIMRC<CR> <cmd>echo "Reloaded 
 -- ----------------------------
 -- <C-g> Show where you are in the file in procent.
 -- g <C-g> Show where you are in the file detaild.
--- :vs split vertical |
--- :sp split horizontal -
--- asdf
+-- :vs [filename] split vertical |
+-- :sp [filename] split horizontal -
+-- nvim .     starts nvim with netrw
+-- --
