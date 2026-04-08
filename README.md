@@ -6,4 +6,5 @@ Arch:
 ~/.config/nvim/init.lua
 Win: ~\AppData\Local\nvim\init.lua
 
-This Basic config should work the same way on both Linux and Windows
+This Basic config should work the same way
+on both my Archlinux/DWM and Windows 11
