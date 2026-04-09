@@ -1,0 +1,18 @@
+-- --------------------------------------------------------
+-- NAVIGATION
+-- --------------------------------------------------------
+print("Start: ~/.config/nvim/lua/morty/navigation")
+
+-- Navigate windows with C-hjkl
+--vim.keymap.set('n', '<C-h>', '<C-w>h')
+vim.keymap.set('n', '<C-h>', '<Cmd>wincmd h<CR>')
+vim.keymap.set('n', '<C-j>', '<C-w>j')
+vim.keymap.set('n', '<C-k>', '<C-w>k')
+vim.keymap.set('n', '<C-l>', '<C-w>l')
+
+-- Resize windows with C-arrows
+vim.keymap.set('n', '<C-Up>',     '<Cmd>resize +2<CR>')
+vim.keymap.set('n', '<C-Down>',   '<Cmd>resize -2<CR>')
+vim.keymap.set('n', '<C-Left>',   '<Cmd>vertical resize -2<CR>')
+vim.keymap.set('n', '<C-Right>',  '<Cmd>vertical resize +2<CR>')vim.keymap.set({ 'n', 'i', 'v', 'c' }, '<C-s>', '<cmd>write<cr>', { desc = 'Save file' })
+ 
